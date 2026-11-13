@@ -1,0 +1,34 @@
+[
+    {
+        "nome": "R1_Saudavel",
+        "host": "127.0.0.1",
+        "porta": 22,
+        "usuario": "r1",
+        "metodo": "chave",
+        "chave": "/home/ana/.ssh/id_ed25519_redes"
+    },
+    {
+        "nome": "R1_Senha_Incorreta",
+        "host": "127.0.0.1",
+        "porta": 22,
+        "usuario": "r1",
+        "metodo": "senha",
+        "senha": "senha_totalmente_incorreta"
+    },
+    {
+        "nome": "Porta_Fechada",
+        "host": "127.0.0.1",
+        "porta": 2299,
+        "usuario": "r1",
+        "metodo": "chave",
+        "chave": "/home/ana/.ssh/id_ed25519_redes"
+    },
+    {
+        "nome": "Endereco_Inexistente",
+        "host": "10.255.255.1",
+        "porta": 22,
+        "usuario": "r1",
+        "metodo": "chave",
+        "chave": "/home/ana/.ssh/id_ed25519_redes"
+    }
+]

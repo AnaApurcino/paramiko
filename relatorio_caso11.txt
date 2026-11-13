@@ -1,0 +1,25 @@
+RELATORIO - CASO 11
+==================================================
+
+Equipamento: R1_Saudavel
+Status: SUCESSO
+Causa provável: Nenhuma falha identificada
+Tentativas: 1
+
+Equipamento: R1_Senha_Incorreta
+Status: FALHA
+Causa provável: Senha incorreta ou credencial rejeitada
+Tentativas: 1
+
+Equipamento: Porta_Fechada
+Status: FALHA
+Causa provável: Conexão recusada: porta fechada ou serviço SSH indisponível
+Tentativas: 1
+
+Equipamento: Endereco_Inexistente
+Status: FALHA
+Causa provável: Timeout: equipamento sem resposta
+Tentativas: 3
+
+==================================================
+Fim do relatório.
